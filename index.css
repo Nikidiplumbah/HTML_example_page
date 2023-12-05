@@ -1,0 +1,43 @@
+.introdaction { color: rgb(208, 0, 255); }
+@media (orientation: landscape) {
+    .introduction {color: rgb(3, 205, 40);}
+}
+
+a {background: yellow; color: blue;}
+a:hover {background: greenyellow; border: 5px solid green; color: yellowgreen;}
+a.with-transition { transition: 3s; }
+
+.form-input { border: 2px solid rgb(5, 2, 2); padding: 5px; }
+.form-input:focus { background: lightyellow; border-color: rgb(208, 0, 255); outline: none; }
+
+.button {background-image: linear-gradient(rgb(235, 147, 147),rgb(144, 236, 238));}
+
+/**@keyframes around {
+    0%  { left: 0; top: 0; }
+    25% { left: 240px; top: 0; }
+    50% { left: 240px; top: 140px; }
+    75% { left: 0; top: 140px; }
+    100% { left: 0; top: 0; }
+}
+p .logo { animation: around 4s alternate infinite;
+    background: turquoise;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    margin: 10px;
+    position: absolute;
+    text-align: center;
+    width: 100px; 
+}**/ 
+
+/**@keyframes translating {
+    0%   { transform: translate(0, 0); }
+    25%  { transform: translate(240px, 0); }
+    50%  { transform: translate(240px, 140px); }
+    75%  { transform: translate(0, 140px); }
+    100% { transform: translate(0, 0); }
+  }
+  p .logo { animation: translating 4s linear infinite; }**/
+
+
+
