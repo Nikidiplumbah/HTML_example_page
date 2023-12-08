@@ -1,6 +1,40 @@
-.introdaction { color: rgb(208, 0, 255); }
-@media (orientation: landscape) {
-    .introduction {color: rgb(3, 205, 40);}
+body {
+    font-family: Arial, Verdana, sans-serif; /* Семейство шрифтов */
+    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+    background-color: #f0f0f0; /* Цвет фона веб-страницы */
+    color: #333; /* Цвет основного текста */ 
+}
+
+h1 {
+    color: rgb(208, 0, 255); /* Цвет заголовка */
+    font-size: 24pt; /* Размер шрифта в пунктах */
+    font-family: Georgia, Times, serif; /* Семейство шрифтов */
+    font-weight: normal; /* Нормальное начертание текста */    
+}
+
+h2 {
+    color:black;
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+article {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11pt;
+    background-color: #f0f0f0;
+    color: #333;
+    border-left: 1px solid navy;
+    padding-left: 15px;
+}
+
+p.bla {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11pt;
+    background-color: #e8bbbb;
+    color: #333;
+    border-left: 2px solid rgb(85, 0, 128);
+    padding-left: 15px;
 }
 
 a {background: yellow; color: blue;}
@@ -12,7 +46,12 @@ a.with-transition { transition: 3s; }
 
 .button {background-image: linear-gradient(rgb(235, 147, 147),rgb(144, 236, 238));}
 
-/**@keyframes around {
+.id {background-image: linear-gradient(rgb(201, 147, 235),rgb(232, 238, 144));}
+
+#header {color: red;}
+#footer {color: red;}
+
+/*@keyframes around {
     0%  { left: 0; top: 0; }
     25% { left: 240px; top: 0; }
     50% { left: 240px; top: 140px; }
@@ -28,16 +67,16 @@ p .logo { animation: around 4s alternate infinite;
     position: absolute;
     text-align: center;
     width: 100px; 
-}**/ 
+}*/ 
 
-/**@keyframes translating {
+/*@keyframes translating {
     0%   { transform: translate(0, 0); }
     25%  { transform: translate(240px, 0); }
     50%  { transform: translate(240px, 140px); }
     75%  { transform: translate(0, 140px); }
     100% { transform: translate(0, 0); }
   }
-  p .logo { animation: translating 4s linear infinite; }**/
+  p .logo { animation: translating 4s linear infinite; }*/
 
 
 
