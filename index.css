@@ -46,6 +46,16 @@ p.bla::first-letter {
     color: red;
 }
 
+meter {
+    width: 200px; 
+    height: 3em;
+    background: #e6e6e6; 
+    margin-bottom: 1rem; 
+}
+meter::-webkit-meter-suboptimum-value {
+    background: linear-gradient(to right, #cc2eb2, #2e75cc); 
+}
+
 a {background: yellow; color: blue;}
 a:hover {background: greenyellow; border: 5px solid green; color: yellowgreen;}
 a.with-transition { transition: 3s; }
