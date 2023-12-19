@@ -14,7 +14,7 @@
                 <a class='id' href="#footer">DOWN</a>
             </p>
             <p>
-                <meter value="80" min="0" max="100" low="40" high="90" optimum="10">40 grades</meter>
+                <meter value="80" min="0" max="100" low="40" high="90" optimum="10" data-unit="%">40 grades</meter>
             </p>
         </header>
         <article>
@@ -60,6 +60,13 @@
                         </optgroup>
                     </select>
                     <p><input class="button" type='submit'><input class="button" type='reset'></p>
+                    <!--p><input type='button' value='Change Color' onclick="changeColor()"></p>
+                    <script>
+                        function changeColor() {
+                         document.querySelector('.color').classList.toggle('red');
+                        }
+                    </script>
+                    <p class='color'>Some text to change a Color</p> DOESN't WORK, ASK MENTOR TO EXPLAIN-->
                 </form>
             </main>
             <aside>
@@ -79,5 +86,8 @@
                 <a class='id' href='#header'>UP</a>
             </p>
             <button class="next_page" onclick="window.location.href='index2.html'">Next Page</button>
+            <p>
+                <button class="btn">EXAMPLE BUTTON</button>
+            </p>
         </footer>
     </html>
