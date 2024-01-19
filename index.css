@@ -1,7 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     font-family: Arial, Verdana, sans-serif; /* Семейство шрифтов */
-    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+    font-size: 15pt; /* Размер основного шрифта в пунктах  */
     line-height: 1.5;
     background-color: #f0f0f0; /* Цвет фона веб-страницы */
     color: #333; /* Цвет основного текста */ 
@@ -24,28 +28,50 @@ h2 {
     text-decoration: none;
 }
 
+p {
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif; /* Семейство шрифтов */
+    font-size: 20px;
+    vertical-align: middle;  
+}
+
 article {
-    font-size: 11pt;
+    font-size: 15pt;
     background-color: #f0f0f0;
     color: #333;
     border-left: 1px solid navy;
     padding-left: 15px;
 }
 
+section.bla1 {
+    background-image: linear-gradient(to right, rgb(147, 208, 237), rgb(193, 147, 237));
+    margin-left: 250px;
+    margin-right: 250px;
+    border: #070606 solid 2px;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 1020px;
+    padding: 0 10 px;
+    margin: 0 auto;
+}
+
 p.bla {
-    font-size: 11pt;
-    background-color: #bbe8de;
-    color: #333;
-    border-left: 2px solid rgb(85, 0, 128);
-    padding-left: 15px;
+    font-size: 20pt;
 }
 
 p.bla::first-letter {
     font-family: 'Times New Roman', Times, serif; 
     font-size: 2em; 
-    color: red;
+    color: rgb(2, 93, 221);
 }
 
+q.attention {
+    background-image: linear-gradient(to left, rgb(108, 241, 174), rgb(103, 187, 240));
+    border: #ad82f1 solid 1px; 
+    border-radius: 5px;
+}
 meter {
     width: 200px; 
     height: 3em;
@@ -158,6 +184,19 @@ a.with-transition { transition: 3s; }
 }
 .gift {
     float: none;
+    border: 3px solid #ed4949;
+    padding: 10px;
+}
+
+.nav_page2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
 }
 
 #header {color: red;}
